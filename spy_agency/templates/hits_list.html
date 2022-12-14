@@ -1,0 +1,19 @@
+{%extends 'base.html'%}
+{% block content %}
+<html>
+    <head>
+        <title>Hits</title>
+    </head>
+    <body>
+        <h1>Hits</h1>
+        {% for hit in hits %}
+            <div>
+                <p>description: {{ hit.description }}</p>
+                <p>target: {{ hit.target }}</p>
+                <p>creator: {{ hit.creator }}</p>
+                <a class="text-uppercase primary-btn" href="{%url 'hit-update'  hit.id %}">Editar Hit</a>
+            </div>
+        {% endfor %}
+    </body>
+</html>
+{% endblock content %}

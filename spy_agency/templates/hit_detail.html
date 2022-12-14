@@ -1,0 +1,15 @@
+{%extends 'base.html'%}
+{% block content %}
+
+<html>
+    <head>
+        <title>Hit Detail</title>
+    </head>
+    <body>
+        <h1>Hit Detail</h1>
+            <h2>{{ hit.description }}</h2>
+            <p>Target: {{ hit.target }}</p>
+            <p>Creator: {{ hit.creator }}</p>
+    </body>
+</html>
+{% endblock content %}

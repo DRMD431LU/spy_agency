@@ -1,0 +1,17 @@
+{%extends 'base.html'%}
+{% block content %}
+
+<html>
+    <head>
+        <title>Create Hit</title>
+    </head>
+    <body>
+        <h1>Create Hit</h1>
+        <form method="post">
+            {% csrf_token %}
+            {{ form }}
+            <input type="submit" value="Create">
+        </form>
+    </body>
+</html>
+{% endblock content %}
