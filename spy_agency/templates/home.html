@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock title %}
+    {% block content %}
+        <h1>Home page.</h1>
+        {% if user.is_authenticated %}
+            Welcome {{request.user.username }}
+            <p><a href="{% url 'hits' %}">hits assigned</a></p>
+            <p><a href="{% url 'logout' %}">Log Out</a></p>
+            <p><a href="{% url 'hitmen' %}"> Hitmen</a></p>
+            <p><a href="{% url 'hits_list' %}"> Hits </a></p>
+            {% if request.user.is_staff or request.user.is_superuser %}
+            <p><a href="{% url 'create_hit' %}">Create Hit</a></p>
+            <p><a href="{% url 'create_assignment' %}">Assign Hit</a></p>
+            {% endif %}
+        {% else %}
+            <p>You are not logged in</p>
+            <a href="{% url 'login' %}">Log In</a>
+            <a href="{% url 'signup' %}">Sign Up</a>
+        {% endif %}
+    {% endblock content %}

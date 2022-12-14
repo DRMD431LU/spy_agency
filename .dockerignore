@@ -1,0 +1,12 @@
+.git
+.vscode
+.venv
+.gitignore
+
+build
+
+docker-compose.yml
+Dockerfile.nginx
+
+*.sqlite3
+

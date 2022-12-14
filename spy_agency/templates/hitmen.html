@@ -1,0 +1,21 @@
+{%extends 'base.html'%}
+{% block content %}
+<html>
+    <head>
+        <title>Hits</title>
+    </head>
+    <body>
+        <h1>Hits</h1>
+        {% for user in hitmen %}
+            <div>
+                <p>Username: {{ user.username }}</p>
+                <a class="text-uppercase primary-btn" href="{%url 'hitmen-detail' user.id %}">Ver detalles</a>
+                {% if request.user.user_type != "1" or request.user.is_superuser %}
+                <a class="text-uppercase primary-btn" href="{%url 'hitmen-update' user.id %}">Actualizar Estatus</a>
+                {% endif %}
+                
+            </div>
+        {% endfor %}
+    </body>
+</html>
+{% endblock content %}

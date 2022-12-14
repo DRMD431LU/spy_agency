@@ -1,0 +1,694 @@
+[
+{
+    "model": "spy_agency.spyuser",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$0n6g4mKvP3fyX32NX17oG1$ts4UGEu2lExc1AeWq/J+SspD50gAf4ItTh6kyhYeh8M=",
+        "last_login": "2022-12-14T17:17:57.936Z",
+        "is_superuser": true,
+        "username": "solid_snake",
+        "first_name": "",
+        "last_name": "",
+        "email": "bigboss@spy.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-12-14T17:17:38.350Z",
+        "user_type": "",
+        "status_type": "ACTIVE",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "spy_agency.spyuser",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$CesCB2IwROGGmb1TriDBqs$clIMK+nbjCCVI8bnZqVNUtKVVNj9zGud11z57xgzP7w=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "hitman1",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-12-14T17:18:47.882Z",
+        "user_type": "",
+        "status_type": "ACTIVE",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "spy_agency.spyuser",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$2ftPlxAv3G0lNsYtmJs6Ro$+VDtDyNgW5po5g9bsI235C2bvCZkez317BRNSWWUfic=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "hitman2",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-12-14T17:18:55.554Z",
+        "user_type": "",
+        "status_type": "ACTIVE",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "spy_agency.spyuser",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$chIQmFMTHjuKK6W3n4cbrz$NRRPDFhzL9AmAxegScB4hsQdvivbwz9m4/Yj0+Jhdng=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "hitman3",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-12-14T17:19:00.369Z",
+        "user_type": "",
+        "status_type": "ACTIVE",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "spy_agency.spyuser",
+    "pk": 5,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$MgexIz5ArPLKJ229x6ZZ7q$PBOROmSAAL50VcnfKk88bOkJFdy9g4KlS8N3djyPddk=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "hitman4",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-12-14T17:19:06.415Z",
+        "user_type": "",
+        "status_type": "ACTIVE",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "spy_agency.spyuser",
+    "pk": 6,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$aw5vZ0VegBzacngc5L3S5J$uerMw8/NHmfiD7JSHx49Hp7rwUP7jAXVZYqiYJNPzPQ=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "hitman5",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-12-14T17:19:17.478Z",
+        "user_type": "",
+        "status_type": "ACTIVE",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "spy_agency.spyuser",
+    "pk": 7,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$4IXfqVtEn4Ub80xAGMETFg$7HvLpiJZ2nOjDHgUC3hBkVJ3STIiJFspag8hiT0uQ/o=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "hitman6",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-12-14T17:19:28.271Z",
+        "user_type": "",
+        "status_type": "ACTIVE",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "spy_agency.spyuser",
+    "pk": 8,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$aoYHBexpY9kMX4wayHzuaL$AIMp/n0lmxv/adhC2ePLggSzz1v1/0RBQRCT5L775uY=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "hitman7",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-12-14T17:21:40.823Z",
+        "user_type": "",
+        "status_type": "ACTIVE",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "spy_agency.spyuser",
+    "pk": 9,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$1HRvq8gDT9epjDpP7j1RmP$u4xzsQJ5IqLZzOj+FJ3+NWP4YaCIg5fQiLBhaVF3KYg=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "hitman8",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-12-14T17:21:49.084Z",
+        "user_type": "",
+        "status_type": "ACTIVE",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "spy_agency.spyuser",
+    "pk": 10,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$ocSuf6YJLjJduBnuGzjEv0$RJf9vk8OV/8nxlJc5uOSyW/7lZ/JqaCLBIxaZr/IDWo=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "hitman9",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-12-14T17:21:56.110Z",
+        "user_type": "",
+        "status_type": "ACTIVE",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "spy_agency.spyuser",
+    "pk": 11,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$RGVSEmLDoFycbKhaAv4VZL$Ek1/aWRfDDwq/z6zAnT5I+3tAVKfLqsl6TWi6yNZO1Y=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "liquid_snake1",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-12-14T17:22:07.368Z",
+        "user_type": "",
+        "status_type": "ACTIVE",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "spy_agency.spyuser",
+    "pk": 12,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$S56iHYazmTJPNvHxhV2yFa$PmeHY45NC9m7aroMLWEdkfEinqnm9miqqCL9b5XXX/E=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "liquid_snake2",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-12-14T17:22:15.789Z",
+        "user_type": "",
+        "status_type": "ACTIVE",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "spy_agency.spyuser",
+    "pk": 13,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$0lr2tOn3PMO0B5e9wlrXlm$7U1iyMh8ehJskMmRBgLgDFAcxZfci9fjQmFzwgDDw68=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "liquid_snake3",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-12-14T17:22:24.988Z",
+        "user_type": "",
+        "status_type": "ACTIVE",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "spy_agency.hit",
+    "pk": 1,
+    "fields": {
+        "description": "kill person1",
+        "target": "person1",
+        "creator": 1
+    }
+},
+{
+    "model": "spy_agency.hit",
+    "pk": 2,
+    "fields": {
+        "description": "kill person 2",
+        "target": "person2",
+        "creator": 1
+    }
+},
+{
+    "model": "spy_agency.hit",
+    "pk": 3,
+    "fields": {
+        "description": "kill person3",
+        "target": "person3",
+        "creator": 1
+    }
+},
+{
+    "model": "spy_agency.hit",
+    "pk": 4,
+    "fields": {
+        "description": "kill person4",
+        "target": "person4",
+        "creator": 1
+    }
+},
+{
+    "model": "spy_agency.hit",
+    "pk": 5,
+    "fields": {
+        "description": "kill person 5",
+        "target": "person5",
+        "creator": 1
+    }
+},
+{
+    "model": "spy_agency.hit",
+    "pk": 6,
+    "fields": {
+        "description": "kill person 6",
+        "target": "person6",
+        "creator": 1
+    }
+},
+{
+    "model": "spy_agency.hit",
+    "pk": 7,
+    "fields": {
+        "description": "kill person 7",
+        "target": "person7",
+        "creator": 1
+    }
+},
+{
+    "model": "spy_agency.hit",
+    "pk": 8,
+    "fields": {
+        "description": "kill person 8",
+        "target": "person 8",
+        "creator": 13
+    }
+},
+{
+    "model": "spy_agency.hit",
+    "pk": 9,
+    "fields": {
+        "description": "kill person 9",
+        "target": "person 9",
+        "creator": 13
+    }
+},
+{
+    "model": "spy_agency.hit",
+    "pk": 10,
+    "fields": {
+        "description": "kill person 10",
+        "target": "person 10",
+        "creator": 13
+    }
+},
+{
+    "model": "spy_agency.hit",
+    "pk": 11,
+    "fields": {
+        "description": "kill person 11",
+        "target": "person 11",
+        "creator": 12
+    }
+},
+{
+    "model": "spy_agency.hit",
+    "pk": 12,
+    "fields": {
+        "description": "kill person 12",
+        "target": "person 12",
+        "creator": 12
+    }
+},
+{
+    "model": "spy_agency.hit",
+    "pk": 13,
+    "fields": {
+        "description": "kill person 13",
+        "target": "person 13",
+        "creator": 12
+    }
+},
+{
+    "model": "spy_agency.hit",
+    "pk": 14,
+    "fields": {
+        "description": "kill person 14",
+        "target": "person 14",
+        "creator": 11
+    }
+},
+{
+    "model": "spy_agency.hit",
+    "pk": 15,
+    "fields": {
+        "description": "kill person 15",
+        "target": "person 15",
+        "creator": 11
+    }
+},
+{
+    "model": "spy_agency.hit",
+    "pk": 16,
+    "fields": {
+        "description": "kill person 16",
+        "target": "person 16",
+        "creator": 11
+    }
+},
+{
+    "model": "spy_agency.hit",
+    "pk": 17,
+    "fields": {
+        "description": "kill person 17",
+        "target": "person 17",
+        "creator": 11
+    }
+},
+{
+    "model": "spy_agency.hit",
+    "pk": 18,
+    "fields": {
+        "description": "kill person 18",
+        "target": "person 18",
+        "creator": 1
+    }
+},
+{
+    "model": "spy_agency.hit",
+    "pk": 19,
+    "fields": {
+        "description": "kill person 19",
+        "target": "person 19",
+        "creator": 1
+    }
+},
+{
+    "model": "spy_agency.hit",
+    "pk": 20,
+    "fields": {
+        "description": "kill bill clinton",
+        "target": "bill clinton",
+        "creator": 1
+    }
+},
+{
+    "model": "spy_agency.assignment",
+    "pk": 1,
+    "fields": {
+        "assignee": 2,
+        "hit": 1,
+        "status_type": "ASSIGNED"
+    }
+},
+{
+    "model": "spy_agency.assignment",
+    "pk": 2,
+    "fields": {
+        "assignee": 3,
+        "hit": 2,
+        "status_type": "ASSIGNED"
+    }
+},
+{
+    "model": "spy_agency.assignment",
+    "pk": 3,
+    "fields": {
+        "assignee": 4,
+        "hit": 4,
+        "status_type": "ASSIGNED"
+    }
+},
+{
+    "model": "spy_agency.assignment",
+    "pk": 4,
+    "fields": {
+        "assignee": 6,
+        "hit": 5,
+        "status_type": "ASSIGNED"
+    }
+},
+{
+    "model": "spy_agency.assignment",
+    "pk": 5,
+    "fields": {
+        "assignee": 7,
+        "hit": 6,
+        "status_type": "ASSIGNED"
+    }
+},
+{
+    "model": "spy_agency.assignment",
+    "pk": 6,
+    "fields": {
+        "assignee": 8,
+        "hit": 8,
+        "status_type": "ASSIGNED"
+    }
+},
+{
+    "model": "spy_agency.assignment",
+    "pk": 7,
+    "fields": {
+        "assignee": 9,
+        "hit": 20,
+        "status_type": "ASSIGNED"
+    }
+},
+{
+    "model": "spy_agency.assignment",
+    "pk": 8,
+    "fields": {
+        "assignee": 10,
+        "hit": 9,
+        "status_type": "ASSIGNED"
+    }
+},
+{
+    "model": "spy_agency.hitmanuser",
+    "pk": 1,
+    "fields": {
+        "admin": 2,
+        "created_at": "2022-12-14T17:21:15.677Z",
+        "updated_at": "2022-12-14T17:21:15.677Z"
+    }
+},
+{
+    "model": "spy_agency.hitmanuser",
+    "pk": 2,
+    "fields": {
+        "admin": 3,
+        "created_at": "2022-12-14T17:21:18.178Z",
+        "updated_at": "2022-12-14T17:21:18.178Z"
+    }
+},
+{
+    "model": "spy_agency.hitmanuser",
+    "pk": 3,
+    "fields": {
+        "admin": 4,
+        "created_at": "2022-12-14T17:21:20.409Z",
+        "updated_at": "2022-12-14T17:21:20.409Z"
+    }
+},
+{
+    "model": "spy_agency.hitmanuser",
+    "pk": 4,
+    "fields": {
+        "admin": 5,
+        "created_at": "2022-12-14T17:21:22.870Z",
+        "updated_at": "2022-12-14T17:21:22.870Z"
+    }
+},
+{
+    "model": "spy_agency.hitmanuser",
+    "pk": 5,
+    "fields": {
+        "admin": 6,
+        "created_at": "2022-12-14T17:21:25.356Z",
+        "updated_at": "2022-12-14T17:21:25.356Z"
+    }
+},
+{
+    "model": "spy_agency.hitmanuser",
+    "pk": 6,
+    "fields": {
+        "admin": 7,
+        "created_at": "2022-12-14T17:21:27.806Z",
+        "updated_at": "2022-12-14T17:21:27.806Z"
+    }
+},
+{
+    "model": "spy_agency.hitmanuser",
+    "pk": 7,
+    "fields": {
+        "admin": 8,
+        "created_at": "2022-12-14T17:22:35.086Z",
+        "updated_at": "2022-12-14T17:22:35.086Z"
+    }
+},
+{
+    "model": "spy_agency.hitmanuser",
+    "pk": 8,
+    "fields": {
+        "admin": 9,
+        "created_at": "2022-12-14T17:22:37.991Z",
+        "updated_at": "2022-12-14T17:22:37.991Z"
+    }
+},
+{
+    "model": "spy_agency.hitmanuser",
+    "pk": 9,
+    "fields": {
+        "admin": 10,
+        "created_at": "2022-12-14T17:22:40.883Z",
+        "updated_at": "2022-12-14T17:22:40.884Z"
+    }
+},
+{
+    "model": "spy_agency.bossuser",
+    "pk": 1,
+    "fields": {
+        "admin": 11,
+        "created_at": "2022-12-14T17:22:51.229Z",
+        "updated_at": "2022-12-14T17:22:51.229Z"
+    }
+},
+{
+    "model": "spy_agency.bossuser",
+    "pk": 2,
+    "fields": {
+        "admin": 12,
+        "created_at": "2022-12-14T17:22:54.090Z",
+        "updated_at": "2022-12-14T17:22:54.090Z"
+    }
+},
+{
+    "model": "spy_agency.bossuser",
+    "pk": 3,
+    "fields": {
+        "admin": 13,
+        "created_at": "2022-12-14T17:22:56.667Z",
+        "updated_at": "2022-12-14T17:22:56.667Z"
+    }
+},
+{
+    "model": "spy_agency.hitmanassignedboss",
+    "pk": 1,
+    "fields": {
+        "hitman": 1,
+        "boss": 1
+    }
+},
+{
+    "model": "spy_agency.hitmanassignedboss",
+    "pk": 2,
+    "fields": {
+        "hitman": 2,
+        "boss": 1
+    }
+},
+{
+    "model": "spy_agency.hitmanassignedboss",
+    "pk": 3,
+    "fields": {
+        "hitman": 3,
+        "boss": 1
+    }
+},
+{
+    "model": "spy_agency.hitmanassignedboss",
+    "pk": 4,
+    "fields": {
+        "hitman": 4,
+        "boss": 2
+    }
+},
+{
+    "model": "spy_agency.hitmanassignedboss",
+    "pk": 5,
+    "fields": {
+        "hitman": 5,
+        "boss": 2
+    }
+},
+{
+    "model": "spy_agency.hitmanassignedboss",
+    "pk": 6,
+    "fields": {
+        "hitman": 6,
+        "boss": 2
+    }
+},
+{
+    "model": "spy_agency.hitmanassignedboss",
+    "pk": 7,
+    "fields": {
+        "hitman": 7,
+        "boss": 3
+    }
+},
+{
+    "model": "spy_agency.hitmanassignedboss",
+    "pk": 8,
+    "fields": {
+        "hitman": 8,
+        "boss": 3
+    }
+},
+{
+    "model": "spy_agency.hitmanassignedboss",
+    "pk": 9,
+    "fields": {
+        "hitman": 9,
+        "boss": 3
+    }
+}
+]

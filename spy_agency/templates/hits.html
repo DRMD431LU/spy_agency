@@ -1,0 +1,22 @@
+{%extends 'base.html'%}
+{% block content %}
+<html>
+    <head>
+        <title>Hits</title>
+    </head>
+    <body>
+        <h1>Hits</h1>
+        {% for hit in assignments %}
+            <div>
+                <p>Assignee: {{ hit.assignee.username }}</p>
+                <p>Target: {{ hit.hit.target }}</p>
+                <p>Status: {{ hit.status_type }}</p>
+                <a class="text-uppercase primary-btn" href="{%url 'hit-detail' hit.id %}">Ver detalles</a>
+                {% if request.user.user_type != "1" or request.user.is_superuser %}
+                <a class="text-uppercase primary-btn" href="{%url 'assignment-update' hit.id %}">Editar asignacion</a>
+                {%endif%}
+            </div>
+        {% endfor %}
+    </body>
+</html>
+{% endblock content %}
